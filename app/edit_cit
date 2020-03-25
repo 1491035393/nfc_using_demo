@@ -1,0 +1,5 @@
+3-24:
+    "androidmainifest.xml"
+    android:required="false"->android:required="true"
+     <action android:name="android.nfc.action.NDEF_DISCOVERED" />          ->        <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                                                                                     <category android:name="android.intent.category.DEFAULT"/>
